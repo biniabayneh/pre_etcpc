@@ -3,7 +3,10 @@
 # Determine if they have enough money to pay for the taxi. Input The input consists of a single line containing three integers A, B, C (0 AB 1001 C 100).
 # Output Print "YES"if they can afford the taxi, otherwise print "NO".
 # Examples standard input standard output 4 2 3 32 1 34 YES NO
-A, B, C = map(int, input().split())
+# A, B, C = map(int, input().split())
+A=int(input().split())
+B=int(input().split())
+C=int(input().split())
 if A + B >= C:
     print("YES")
 else:
